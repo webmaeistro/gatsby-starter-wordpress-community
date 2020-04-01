@@ -6,7 +6,7 @@ module.exports = {
   siteMetadata: {
     title: `Gatsby Starter WordPress Community`,
     description: `Kick off a great Gatsby blog with this starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@pablovilafer`
+    author: `@webmaeistro `
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -23,7 +23,7 @@ module.exports = {
         //Default options are for WP sites hosted on wordpress.com
         //For sites self hosted and other options check:
         //https://github.com/gatsbyjs/gatsby/tree/master/packages/gatsby-source-wordpress
-        baseUrl: "gatsbystartercommunity.wordpress.com",
+        baseUrl: "madsendialog.wordpress.com",
         protocol: "https",
         hostingWPCOM: true,
         useACF: false,
@@ -39,8 +39,8 @@ module.exports = {
         },
         searchAndReplaceContentUrls: {
           //Nested urls won't work. If you find a solution, please fill a PR request
-          sourceUrl: "https://gatsbystartercommunity.wordpress.com",
-          replacementUrl: "https://gatsbystartercommunity.netlify.com"
+          sourceUrl: "https://madsendialog.wordpress.com",
+          replacementUrl: "https://madsendialog.no"
         }
       }
     },
